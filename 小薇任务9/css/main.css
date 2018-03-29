@@ -1,0 +1,334 @@
+.fl{float:left;}
+.fr{float:right;}
+/*头部*/
+header{
+  height:56px;
+  background:#2189bf;
+}
+header .icon{
+  margin-left:48px;
+  margin-top:10px;
+  display:inline-block;
+  width:36px;
+  height:36px;
+  background:url(../images/icon/icon1.png) 0 0 no-repeat;
+}
+header input{
+  position:relative;
+  top:-15px;
+  margin-left:55%;
+  width:320px;
+  height:30px;
+  border:none;
+  border-radius:15px;
+  background:url(../images/icon/images/icon4_03.jpg) 10px center no-repeat;
+  background-color:#FFF;
+  text-indent:35px;
+  line-height:26px;
+}
+header .login{
+  position:relative;
+  top:-15px;
+  display:inline-block;
+  width:70px;
+  height:30px;
+  background:url(../images/icon/icon2.jpg) 18px center no-repeat;
+  text-indent:40px;
+  line-height:30px;
+}
+/*侧栏*/
+aside{
+  width:260px;
+  color:#5b697c;
+}
+.userprofile{
+  background:#2a2e3d;
+  padding-bottom:20px;
+  font-family:"宋体";
+}
+.user{
+  padding:20px;
+}
+.user .username{
+  position:relative;
+  top:-21px;
+  margin-left:15px;
+  font:16px/21px "黑体";
+  color:#FFF;
+}
+.userprofile i{
+  width:2px;
+  height:30px;
+  background:red;
+}
+.collect,
+.fan{
+  width:80px;
+  text-align:center;
+}
+/*个人资料*/
+.userinfo{
+  background:#2a2e3d;
+  color:#6e8095;
+  font-family:"黑体";
+  text-indent:40px;
+}
+.userinfo li{
+  line-height:50px;
+}
+.userinfo img{
+  margin-right:5px;
+}
+/*个人报表*/
+.filter-list{
+  background:#383d4e;
+  text-indent:100px;
+}
+.filter-list li{
+  line-height:26px;
+}
+.document-list{
+  text-indent:115px;
+}
+.active{
+  background-color:#383d4e;
+}
+/*网页主体*/
+.main{
+  margin-left:260px;
+}
+.directory{
+  line-height:32px;
+  padding-left:28px;
+}
+.directory span{
+  display:inline-block;
+  margin-left:5px;
+  margin-right:5px;
+}
+/*网页内容*/
+.content{
+  background:#eeedec;
+  padding-top:24px;
+}
+/*交易搜索*/
+.buy-search{
+  margin:0 auto;
+  margin-bottom:10px;
+  width:892px;
+  height:86px;
+  background-color:#FFF;
+}
+.search-item{
+  padding-top:23px;
+  padding-left:32px;
+  width:143px;
+}
+.search-item span{
+  margin-right:5px;
+}
+/*买卖方选择与交换*/
+.buy-change{
+  padding-left:35px;
+  padding-top:15px;
+  width:190px;
+  background:url(../images/icon/买卖方交换.jpg) 120px 20px no-repeat;
+}
+.buy-change div{
+  margin-bottom:10px;
+}
+/*筛选盒子*/
+.selectbox{
+  padding-left:30px;
+  padding-top:15px;
+  width:325px;
+}
+.selectbox span{
+  margin-left:15px;
+  line-height:26px;
+}
+.people-sum,
+.success-item{
+  margin-top:10px;
+}
+/*搜索按钮*/
+.search-all{
+  padding:28px 10px;
+}
+.search-all input{
+  width:52px;
+  height:26px;
+  border:none;
+  background-color:#388ac1;
+  color:#FFF;
+}
+/*历史查询*/
+.history-check{
+  margin:0 auto;
+  margin-bottom:10px;
+  width:892px;
+  height:65px;
+}
+/*左右移动*/
+.left-move,
+.right-move{
+  margin-right:5px;
+  padding-left:8px;
+  padding-top:20px;
+  width:22px;
+  height:45px;
+  background-color:#FFF;
+}
+/*历史盒子*/
+.history-box{
+  margin-right:5px;
+  padding-top:10px;
+  width:110px;
+  height:55px;
+  background-color:#FFF;
+  text-align:center;
+}
+.history-box:hover{
+  height:52px;
+  border-top:3px solid #1c8bd2;
+}
+.history-box p{
+  margin-bottom:5px;
+}
+.history-box h3{
+  font-size:21px;
+  font-weight:normal;
+  color:#e72020;
+}
+.history-box span{
+  font-size:14px;
+  color:#b2b2b2;
+}
+/*历史按钮*/
+.history-btn{
+  padding-left:12px;
+  padding-top:18px;
+  width:118px;
+  height:47px;
+  background-color:#FFF;
+}
+.history-btn span{
+  position:relative;
+  top:-10px;
+  display:inline-block;
+  line-height:32px;
+}
+/*统计*/
+.count{
+  margin:0 auto;
+  width:892px;
+  height:95px;
+}
+/*标题*/
+.count h2{
+  font-size:12px;
+  font-weight:normal;
+  text-indent:18px;
+}
+.countbox{
+  float:left;
+  margin-right:30px;
+  width:198px;
+  height:68px;
+  border:1px solid #eee;
+  background-color:#FFF;
+}
+.countbox .textbox{
+  float:left;
+  margin-left:5px;
+  margin-top:20px;
+}
+.countbox .textbox p{
+  margin-bottom:10px;
+  line-height:10px;
+}
+.countbox .sm-box{
+  float:right;
+  margin-right:16px;
+  margin-top:13px;
+  width:62px;
+  height:45px;
+}
+.greenbox{
+  border-left:3px solid #43b29e;
+  width:196px;
+}
+.greenbox .sm-box{
+  background-color:#43b29e;
+}
+.bluebox{
+  border-left:3px solid #388ac1;
+  width:196px;
+}
+.bluebox .sm-box{
+  background-color:#388ac1;
+}
+.redbox{
+  border-left:3px solid #d04b36;
+  width:196px;
+}
+.redbox .sm-box{
+  background-color:#d04b36;
+}
+.yellowbox{
+  margin-right:0;
+  border-left:3px solid #e2cd47;
+  width:196px;
+}
+.yellowbox .sm-box{
+  background-color:#e2cd47;
+}
+/*第一组项目*/
+.first-item-box{
+  float:left;
+  margin-left:100px;
+  width:532px;
+  height:360px;
+  background-color:#FFF;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+.first-item-box p{
+  height:40px;
+  line-height:40px;
+  background-color:#f4f5f6;
+}
+.first-item-box .item{
+  margin-top:10px;
+  margin-left:30px;
+}
+.first-item-box ul li{
+  float:left;
+  margin-right:5px;
+  width:82px;
+  height:28px;
+  line-height:28px;
+  background-color:#ededf0;
+}
+.first-item-box .active{
+  background-color:#fff;
+  border:1px solid #ccc;
+  border-bottom-color:#fff;
+}
+.first-item-box .tablebox{
+  margin-top:-1px;
+  padding-top:30px;
+  padding-left:36px;
+  width:454px;
+  height:225px;
+  border:1px solid #ccc;
+}
+.first-item-box table{
+  border-collapse:collapse;
+  border:1px solid #ccc;
+}
+.first-item-box table td{
+  width:100px;
+  height:30px;
+  border:1px solid #CCC;
+}

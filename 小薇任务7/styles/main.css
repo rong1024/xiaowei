@@ -1,0 +1,475 @@
+/*header*/
+header span{
+  margin-left:30px;
+  font-size:21px;
+  line-height:31px;
+  padding-left:46px;
+  background:url(../images/_编组_.png) 0 0 no-repeat;
+}
+/*nav*/
+header .nav{
+  float:right;
+  margin-right:40px;
+}
+header .nav li{
+  float:left;
+  width:67px;
+  padding-bottom:15px;
+  text-align:center;
+}
+header .nav li a{
+  color:#635b5b;
+  line-height:31px;
+}
+header .nav li a:hover,header .nav .act{
+  color:#c81f1f;
+}
+header .nav .act{
+  border-bottom:2px solid #c81f1f;
+}
+/*login*/
+.login{
+  float:right;
+  margin-right:80px;
+  padding-left:20px;
+  line-height:31px;
+  background:url(../images/登录.png) 0 5px no-repeat;
+}
+/*banner*/
+.banner{
+  position:relative;
+}
+.banner img{
+  width:100%;
+  height:690px;
+}
+.banner .shade{
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:690px;
+  background:rgb(57, 52, 53);
+  opacity:0.2;
+  filter:Alpha(opacity=20);
+}
+/*开始体验按钮周围*/
+.begin-experience{
+  position:absolute;
+  left:130px;
+  top:240px;
+  color:#FFF;
+}
+.begin-experience h2{
+  font-size:60px;
+  font-weight:normal;
+}
+.begin-experience p{
+  font-size:21px;
+  line-height:24px;
+}
+.begin-experience input{
+  margin-top:50px;
+  width:330px;
+  height:65px;
+  border:none;
+  background:#c81f1f;
+  font-size:30px;
+  color:#FFF;
+}
+/*四个盒子部分*/
+.inside-box{
+  float:left;
+  width:25%;
+  height:250px;
+  text-align:center;
+}
+.inside-box img{
+  margin-top:40px;
+  margin-bottom:40px;
+}
+ .inside-box p{
+  border-right:1px solid #BBB;
+}
+.inside-box .no-border{
+  border:none;
+}
+/*提问部分*/
+.no-know{
+  height:360px;
+  background:#ececec;
+  text-align:center;
+}
+.no-know img{
+  margin-top:90px;
+  margin-bottom:40px;
+}
+.no-know h2{
+  font-size:54px;
+  color:#a1a1a1;
+  font-weight:normal;
+}
+/*城市活动选择*/
+.city-select{
+  position:relative;
+  text-align:center;
+}
+.city-select img{
+  width:100%;
+}
+/*搜索城市活动信息*/
+.find-city-information{
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  color:#FFF;
+}
+.find-city-information h2{
+  margin-top:21px;
+  font-weight:normal;
+  font-size:54px;
+}
+.find-city-information span{
+  display:inline-block;
+  width:30px;
+  height:18px;
+  border-bottom:3px solid #FFF;
+}
+.find-city-information p{
+  margin-top:19px;
+  margin-bottom:54px;
+  font-size:12px;
+}
+.find-city-information select{
+  width:235px;
+  height:36px;
+  margin-right:28px;
+  background:url(../images/icon/_编组_.png) 212px 8px no-repeat;
+  background-color:#FFF;
+}
+.find-city-information option{
+  background:#e4e3e5;
+}
+.find-city-information .currentselect{
+  border:1px solid #be4e48;
+}
+.find-city-information input{
+  width:235px;
+  height:36px;
+  margin-right:28px;
+  background:#be4e48;
+  border:none;
+  color:#FFF;
+}
+/*四个城市的盒子区域*/
+.four-city-box{
+  padding:103px 149px 62px;
+  background:#f7f7f7;
+}
+.city-box{
+  float:left;
+  margin-right:40px;
+  width:220px;
+  height:392px;
+  text-align:center;
+}
+.city-box .imgbox{
+  height:338px;
+  padding-top:16px;
+  background:#FFF;
+  border:1px solid #dadada;
+  border-bottom:none;
+}
+.city-box h3{
+  line-height:38px;
+  font-size:12px;
+  font-weight:normal;
+}
+.city-box p{
+  color:#9f9f9f;
+}
+.shanghai-box h3{
+  font-size:22px;
+}
+.shanghai-box .imgbox{
+  border-bottom:1px solid #dadada;
+}
+/*新世界及更多*/
+.newworld{
+  position:relative;
+  height:627px;
+  overflow:hidden;
+}
+.newworld img{
+  width:70%;
+}
+.new-world-time{
+  position:absolute;
+  left:150px;
+  top:130px;
+  width:390px;
+  height:292px;
+  text-align:center;
+}
+.new-world-time p{
+  color:#FFF;
+}
+.new-world-time .p1{
+  font-size:50px;
+  line-height:56px;
+}
+.new-world-time .p2{
+  font-size:158px;
+  line-height:138px;
+}
+.new-world-time .p3,.new-world-time .p4{
+  font-size:22px;
+}
+.new-world-time .p3{
+  line-height:68px;
+}
+/*新世界的更多详情*/
+.newworld .moredetail{
+  position:absolute;
+  right:0;
+  top:0;
+  width:320px;
+  height:100%;
+  padding:150px 70px;
+  background:#FFF;
+  text-align:center;
+
+}
+.newworld .moredetail h3{
+  margin-bottom:30px;
+  font-size:22px;
+}
+.newworld .moredetail h3 span{
+  color:#be4e48;
+}
+.newworld .moredetail p{
+  margin-bottom:47px;
+  text-align:left;
+}
+.newworld .moredetail input{
+  border:1px solid #be4e48;
+  background:#FFF;
+  color:#be4e48;
+  width:105px;
+  height:32px;
+}
+.newworld .moredetail .spanbox{
+  margin-top:25px;
+}
+.newworld .moredetail .spanbox span{
+  float:left;
+  display:inline-block;
+  width:13px;
+  height:13px;
+  margin-right:10px;
+}
+.newworld .moredetail .span1{
+  margin-left:138px;
+  background:url(../images/小圆点_03.jpg) 0 0 no-repeat;
+}
+.newworld .moredetail .span2 ,.newworld .moredetail .span3{
+  background:url(../images/小圆点_03.jpg) -24px 0 no-repeat;
+}
+.newworld .moredetail .triangle{
+  position:absolute;
+  left:-27px;
+  top:228px;
+}
+.newworld .moredetail .triangle img{
+  width:27px;
+  height:35px;
+}
+/*新时代热爱生活的我们*/
+.colorbox{
+  float:left;
+  width:33%;
+  height:525px;
+  text-align:center;
+}
+.colorbox p{
+  margin-top:174px;
+  font:21px/30px "黑体";
+}
+/*红色盒子部分*/
+.redbox{
+  background:#be4e48;
+}
+.redbox p{
+    color:#FFF;
+}
+.redbox span,.whitebox span{
+  margin-top:22px;
+  display:inline-block;
+  width:30px;
+  height:2px;
+  background:#FFF;
+}
+.redbox input,.whitebox input{
+  margin-top:22px;
+  width:170px;
+  height:44px;
+  border:1px solid #FFF;
+  background:#be4e48;
+  color:#FFF;
+}
+/*白色盒子部分*/
+.whitebox span{
+  background:#000;
+}
+.whitebox input{
+  border:1px solid #be4e48;
+  background:#FFF;
+  color:#be4e48;
+}
+.newus .imgbox{
+  position:relative;
+  float:left;
+  width:34%;
+}
+.newus img{
+  width:100%;
+  height:525px;
+}
+.newus .imgbox span{
+  position:absolute;
+  left:-1px;
+  top:228px;
+  display:inline-block;
+  width:32px;
+  height:32px;
+  background:url(../images/剪头.png) 0 0 no-repeat;
+}
+/*参加我们部分*/
+.joinus{
+  text-align:center;
+}
+.joinus .p1{
+  margin-top:115px;
+  font:21px/30px "黑体";
+}
+.joinus .span1{
+  display:inline-block;
+  width:30px;
+  height:2px;
+  background:#be4e48;
+}
+.joinus .p2{
+  margin-top:16px;
+  color:#97a2a2;
+}
+/*条款部分*/
+.provision{
+  float:left;
+  margin-top:90px;
+  margin-left:130px;
+  padding-bottom:200px;
+  width:336px;
+  height:294px;
+  text-align:left;
+}
+.provision .item{
+  margin-bottom:30px;
+}
+.provision h3{
+  margin-bottom:25px;
+  font-weight:normal;
+  font-size:14px;
+}
+.provision p{
+  font-size:12px/21px "宋体";
+  color:#231815;
+}
+.provision span{
+  float:right;
+  background:url(../images/下三角_03.jpg) 0 center no-repeat;
+  text-indent:18px;
+  line-height:16px;
+}
+/*填写资料框和提交申请的部分*/
+.application{
+  float:left;
+  margin-top:90px;
+  margin-left:68px;
+  width:690px;
+  text-align:left;
+}
+.application .textinput{
+  margin-right:20px;
+  margin-bottom:16px;
+  width:310px;
+  height:45px;
+  border:none;
+  background:#ededee;
+}
+.application textarea{
+  width:100%;
+  border:none;
+  background:#ededee;
+}
+.application .btninput{
+  margin-top:20px;
+  width:100%;
+  height:45px;
+  border:none;
+  background:#ededee;
+}
+/*联系我们的部分*/
+.connectus{
+  padding-top:100px;
+  height:360px;
+  background:#32363e;
+  text-align:center;
+  color:#FFF;
+}
+.connectus h2{
+  font-size:21px;
+  line-height:48px;
+  font-weight:normal;
+}
+.connectus p{
+  margin-bottom:30px;
+  font-size:12px;
+  line-height:18px;
+}
+.connectus .textinput{
+  width:420px;
+  height:45px;
+  border:none;
+}
+.connectus .submitinput{
+  width:80px;
+  height:45px;
+  background:#6f7178;
+  color:#FFF;
+  border:none;
+  vertical-align:bottom;
+}
+.connectus span{
+  margin-top:30px;
+  display:inline-block;
+  margin-right:20px;
+  width:32px;
+  height:25px;
+  background:url(../images/task_1_7_1_03.jpg) 0 center no-repeat;
+}
+footer{
+  height:60px;
+  background:#2f2f38;
+  color:#FFF;
+}
+footer .span1{
+  float:left;
+  margin-left:120px;
+  margin-top:30px
+}
+footer .span2{
+  float:right;
+  margin-top:30px;
+  margin-right:120px;
+}

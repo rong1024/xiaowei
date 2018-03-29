@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<style>
+  /*cssreset*/
+  body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+  body{font-size:12px;}
+  img{border:none;}
+  li{list-style:none;}
+  input,select,textarea{outline:none;}
+  textarea{resize:none;}
+  a{text-decoration:none;}
+/*清除浮动*/
+  .clearfix:after{content:"";display:block;clear:both;}
+  .clearfix{zoom:1;}
+  /*cssmain*/
+  .wrap{
+    width:980px;
+    height:1386px;
+    margin:0 auto;
+  }
+  .middle{
+    margin:0 auto;
+    width:892px;
+  }
+  /*头部*/
+  header{
+    border-bottom:2px solid #938e8c;
+  }
+  header .span1{
+    padding-top:49px;
+    width:110px;
+    display:inline-block;
+    background:rgb(205, 48, 48);
+    font-size:12px;
+    font-family:"黑体";
+    color:#fff;
+  }
+  header .span2{
+    float:right;
+    padding-top:49px;
+    font-size:12px;
+    font-family:"黑体";
+    color:#d45d5c;
+  }
+  /*main*/
+  /*main imgbox*/
+  main .imgbox{
+    float:left;
+    position:relative;
+    margin-top:20px;
+    width:641px;
+    height:301px;
+  }
+  main .imgbox .img1{
+    width:641px;
+    height:301px;
+  }
+  main .imgbox span{
+    display:inline-block;
+    width:191px;
+    height:301px;
+  }
+  main .imgbox .span1{
+    position:absolute;
+    left:0;
+    top:0;
+    background:rgb(42, 195, 119);
+    filter:Alpha(opacity=50);
+    opacity:0.5;
+  }
+  main .imgbox .span2{
+    position:absolute;
+    right:0;
+    top:0;
+    background:rgb(195, 42, 65);
+    filter:Alpha(opacity=50);
+    opacity:0.5;
+  }
+  /*main fontbox*/
+  main .fontbox{
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    width:203px;
+    border-top:2px solid #cc8091;
+  }
+  main .fontbox .p1{
+    margin-top:10px;
+    font:24px/30px "Microsoft Yahei","微软雅黑";
+    color:#000;
+    text-decoration:underline;
+    text-transform:uppercase;
+  }
+  main .fontbox .p2{
+    font-size:12px;
+    font-family:"楷体";
+    color:#676767;
+  }
+  main .fontbox .p3{
+    font:italic 116px "Microsoft Yahei","微软雅黑";
+    color:#75b86b;
+  }
+  main .fontbox .span1{
+    font-size:55px;
+    font-family:"Microsoft Yahei","微软雅黑";
+    color:rgb(199, 31, 66);
+  }
+  main .fontbox .span2{
+    position:relative;
+    top:-12px;
+    font-size:21px;
+    font-family:"Microsoft Yahei","微软雅黑";
+    color:rgb(199, 31, 66);
+  }
+  main .fontbox .span3{
+    position: relative;
+    left:-30px;
+    color:rgb(84, 89, 89);
+  }
+  /*description*/
+  main .description{
+    float:left;
+  }
+  main .description div{
+    float:left;
+    margin-right:20px;
+    width:200px;
+  }
+  main .description span{
+    display:inline-block;
+    margin-bottom:20px;
+    font-size:22px;
+    color:rgb(66, 77, 172);
+    text-decoration:underline;
+  }
+  main .description p{
+    font-size:12px;
+    line-height:16px;
+    filter:Alpha(opacity=50);
+    opacity:0.5;
+  }
+  main .leftarea{
+    float:left;
+    width:400px;
+    margin-top:20px;
+  }
+  main .leftarea h2{
+    font-size:30px;
+    line-height:50px;
+  }
+  main .leftarea span{
+    float:left;
+    font-size:80px;
+    width:100px;
+    height:100px;
+    line-height:100px;
+    color:#9e25b0;
+  }
+  main .leftarea img{
+    float:right;
+    width:130px;
+    height:120px;
+    vertical-align:bottom;
+  }
+  main .leftarea p{
+    font-size:16px;
+    line-height:22px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="middle">
+      <header>
+        <span class="span1">ife.baidu.com</span>
+        <span class="span2">2016.03</span>
+      </header>
+      <main>
+        <div class="imgbox">
+          <img src="task_1_6_1_r2_c2.jpg" alt="" class="img1">
+          <span class="span1"></span>
+          <span class="span2"></span>
+        </div>
+        <div class="fontbox">
+          <p class="p1">about<br>technology</p>
+          <p class="p2">about technology about technology<br>about technologyabout technology</p>
+          <p class="p3">700</p>
+          <span class="span1">3.2</span>
+          <span class="span2">css</span>
+          <span class="span3">csscsscsscsscss</span>
+        </div>
+        <div class="description">
+          <div class="what">
+            <span>what</span>
+            <p>
+              前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前
+            </p>
+          </div>
+          <div class="when">
+            <span>when</span>
+            <p>
+              前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前
+            </p>
+          </div>
+          <div class="how">
+            <span>how</span>
+            <p>
+              前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="leftarea">
+            <h2>the technology of the front</h2>
+            <p>
+              <span>前</span>
+              前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前<img src="..\小薇任务6\task_1_6_1_r2_c3.jpg" alt="">
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+              前前前前前前前前前前前前前前前前前前前前前前前前前前前
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+  </div>
+</body>
+</html>
